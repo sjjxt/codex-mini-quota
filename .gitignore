@@ -1,0 +1,11 @@
+*.pdb
+*.log
+*.jsonl
+*.jsonl.*
+__pycache__/
+test-results/
+.test-build/
+position.json
+status.json
+preferences.json
+startup-setting-*.json
