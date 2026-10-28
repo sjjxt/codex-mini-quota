@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mini-quota",
+  "version": "1.4.6",
+  "description": "在本机 Codex 客户端启动时，经原生 MCP 初始化加载中英文余量气泡。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Mini 用量气泡",
+        "shortDescription": "点击宠物查看剩余额度，支持中文和 English",
+        "longDescription": "通过插件自带本地 MCP 服务的初始化入口启动用量组件。需启用客户端 desktop.mcp_startup_authentication。无需新建聊天、新启动器或 Windows 自启动。点击官方宠物查看中英文余量；组件随 Codex 退出。"
+      },
+      "hooks": [],
+      "requires_local_executor": true
+    }
+  }
+}

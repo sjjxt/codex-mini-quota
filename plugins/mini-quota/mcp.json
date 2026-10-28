@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "mini_quota_bootstrap": {
+      "type": "stdio",
+      "command": "./bin/QuotaBootstrap.exe",
+      "cwd": "${PLUGIN_ROOT}",
+      "args": []
+    }
+  }
+}

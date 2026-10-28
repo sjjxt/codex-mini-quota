@@ -1,0 +1,10 @@
+{
+  "name": "mini-quota-local",
+  "interface": { "displayName": "我的 Mini 用量插件" },
+  "plugins": [{
+    "name": "mini-quota",
+    "source": { "source": "local", "path": "./plugins/mini-quota" },
+    "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+    "category": "Productivity"
+  }]
+}
